@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center;     /* centraliza verticalmente */
+    min-height: 100vh;       /* garante altura mínima de 100% da tela */
+    margin: 0;
+    background-color: bisque;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.card-left img {
+    width: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.card {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto; /* centraliza horizontalmente */
+}
+
+
+.card-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card-left span {
+    font-weight: 100;
+    color: rgb(126, 35, 48);
+}
+
+.card-left h1 {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.card-left p {
+    color: rgb(97, 41, 149);
+}
+
+.card-right img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    /* centraliza */
+}
+
+.botoes-container {
+    text-align: center;
+    /* Centraliza os botões */
+    margin-top: 20px;
+    /* Espaço acima */
+}
+
+.botao {
+    background-color: #7a1f1f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    text-decoration: none;
+    /* Remove sublinhado dos links */
+    display: inline-block;
+    /* Faz o <a> se comportar como botão */
+    margin: 0 10px;
+    /* Espaçamento entre os botões */
+}
+
+.rodape {
+    position: fixed;    /* fixa o rodapé na tela */
+    bottom: 0;    /* posiciona no final */
+    width: 100%;    /* ocupa toda a largura */
+    text-align: center;    /* centraliza o texto */
+    padding: 10px 0;    /* espaçamento interno */
+}

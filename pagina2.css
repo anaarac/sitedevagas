@@ -1,0 +1,101 @@
+ /* --- Estilo geral --- */
+ body {
+     font-family: "Arial", sans-serif;
+     background-color: #f5e6c8;
+     /* tom de papel envelhecido */
+     color: #2b1c0f;
+     max-width: 850px;
+     margin: 50px auto;
+     padding: 40px;
+     border: 6px solid #3d1f12;
+     border-radius: 8px;
+     box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+     background-image: radial-gradient(circle, rgba(255, 255, 255, 0.15) 1px, transparent 1px);
+     background-size: 10px 10px;
+ }
+
+ h1 {
+     text-align: center;
+     color: #5a0b0b;
+     font-family: "Impact", "Arial Black", sans-serif;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+ }
+
+ h2 {
+     color: #7a1f1f;
+     margin-top: 30px;
+     border-bottom: 2px solid #7a1f1f;
+     padding-bottom: 5px;
+     font-family: "Trebuchet MS", sans-serif;
+ }
+
+ p,
+ li {
+     font-size: 17px;
+     line-height: 1.7;
+ }
+
+ ul {
+     list-style: square;
+     padding-left: 25px;
+ }
+
+ b {
+     color: #8b0000;
+ }
+
+ /* --- Imagem --- */
+ .card-right {
+     text-align: center;
+     margin-top: 40px;
+ }
+
+ .card-right img {
+     width: 300px;
+     height: auto;
+     border: 4px solid #3d1f12;
+     border-radius: 6px;
+     filter: sepia(0.4) contrast(1.1) brightness(0.95);
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+     transition: transform 0.3s ease, filter 0.3s ease;
+ }
+
+ .card-right img:hover {
+     transform: scale(1.05);
+     filter: sepia(0.2) brightness(1.05);
+ }
+/* CSS */
+.botoes-container {
+    text-align: center; /* Centraliza os botões */
+    margin-top: 20px; /* Espaço acima */
+}
+
+.botao {
+    background-color: #7a1f1f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    text-decoration: none; /* Remove sublinhado dos links */
+    display: inline-block; /* Faz o <a> se comportar como botão */
+    margin: 0 10px; /* Espaçamento entre os botões */
+}
+
+.botao:hover {
+    background-color: #5a0b0b;
+    transform: scale(1.05);
+}
+
+ /* --- Detalhes decorativos --- */
+ .rodape {
+     margin-top: 60px;
+     text-align: center;
+     font-style: italic;
+     color: #4b2a16;
+     border-top: 2px dashed #7a1f1f;
+     padding-top: 15px;
+ }

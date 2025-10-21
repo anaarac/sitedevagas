@@ -1,0 +1,112 @@
+/* --- Fundo e estrutura geral --- */
+body {
+    font-family: "Courier New", monospace;
+    background-color: #f4e3b3;
+    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+    color: #2b1c0f;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container principal */
+.container {
+    background-color: rgba(255, 248, 220, 0.9);
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px 60px;
+    border: 5px solid #3d1f12;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: #5a0b0b;
+    font-family: "Impact", "Arial Black", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.subtitulo {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: #3e2b18;
+}
+
+h3 {
+    color: #7a1f1f;
+    border-bottom: 2px solid #7a1f1f;
+    padding-bottom: 5px;
+    margin-top: 35px;
+    text-transform: uppercase;
+}
+
+/* Campos de texto */
+input[type="text"],
+input[type="number"] {
+    width: 70%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid #7a1f1f;
+    border-radius: 6px;
+    background-color: #fffaf0;
+}
+
+/* Grupos de opções */
+.local-operacao label,
+#altura label,
+#reacao label {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+/* Caixas ocultas */
+.opcao {
+    display: none;
+    background-color: #fff8e1;
+    border-left: 4px solid #7a1f1f;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+/* Botão padrão */
+.botao {
+    background-color: #7a1f1f;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 20px; /* altura reduzida de 10px para 8px */
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-right: 10px; /* espaço entre botões lado a lado */
+    margin-top: 5px;    /* espaço vertical entre botões empilhados */
+}
+
+.botao:hover {
+    background-color: #5a0b0b;
+    transform: scale(1.05);
+}
+
+/* Checkbox e envio */
+.checkbox {
+    margin-top: 20px;
+}
+
+.enviar {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Inputs de arquivo */
+input[type="file"] {
+    margin-top: 8px;
+    border: 1px dashed #7a1f1f;
+    background-color: #fffef9;
+    padding: 6px;
+}
